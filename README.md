@@ -1,7 +1,7 @@
 Aime's Beauty Bar Website
 
   Project Overview
-Luxury Hair Hub is a responsive hair advertisement website designed to showcase and sell premium wigs and hair products. The website provides users with an easy way to browse products, view styles, and send enquiries.
+Aime's Beuaty Bar is a responsive hair advertisement website designed to showcase and sell premium wigs and hair products. The website provides users with an easy way to browse products, view styles, and send enquiries.
 
   Purpose
 The purpose of this project is to promote a hair business , display available wigs and pricing . And also to allow custmers to send enquiries .
