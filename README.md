@@ -7,7 +7,7 @@ Aime's Beuaty Bar is a responsive hair advertisement website designed to showcas
 The purpose of this project is to promote a hair business , display available wigs and pricing . And also to allow custmers to send enquiries .
 To also create a clean and professional user experience for all customers.
 
-The website features the following : 
+ The website features the following : 
 -Homepage with hero/banner section
 -About section with business information
 -Shop/services page displaying wigs and prices
