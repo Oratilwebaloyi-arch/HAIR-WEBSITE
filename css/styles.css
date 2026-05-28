@@ -18,7 +18,13 @@ header {
     color: white;
     text-align: center;
     padding: 20px;
+
+    /* Helps nav/title wrap cleanly on smaller screens */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 /* WEBSITE TITLE */
 header h1 {
@@ -279,10 +285,22 @@ footer {
 /* MOBILE */
 @media (max-width: 600px) {
 
+    header {
+        padding: 14px;
+    }
+
+    nav {
+        width: 100%;
+        padding: 0 10px;
+    }
+
     nav a {
         display: block;
-        margin: 10px 0;
+        margin: 8px 0;
+        font-size: 0.95rem;
+        white-space: normal;
     }
+
 
     .products-grid {
         grid-template-columns: 1fr;
