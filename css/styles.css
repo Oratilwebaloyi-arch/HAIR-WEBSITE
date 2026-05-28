@@ -113,6 +113,33 @@ button:hover {
 }
 
 /* ABOUT SECTION */
+section.about {
+    position: relative;
+    overflow: hidden;
+    background: transparent;
+}
+
+section.about::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("/images/dark piano curly full frontal.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1.02);
+    z-index: 0;
+}
+
+section.about {
+    color: #ffffff;
+}
+
+section.about > * {
+    position: relative;
+    z-index: 1;
+}
+
 .about-content {
     display: flex;
     justify-content: space-between;
@@ -125,8 +152,8 @@ button:hover {
     border-radius: 10px;
 }
 
-
 .about-content ul {
+
     padding-left: 20px;
 }
 
