@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* HEADER */
+    <!--header-->
 header {
     background-color: #6B4F3A;
     color: white;
@@ -26,13 +26,12 @@ header {
 }
 
 
-/* WEBSITE TITLE */
 header h1 {
     margin-bottom: 10px;
     letter-spacing: 2px;
 }
 
-/* NAVIGATION */
+   <!--navigation-->
 nav {
     margin-top: 10px;
 }
@@ -49,7 +48,6 @@ nav a:hover {
     color: #E8D3C0;
 }
 
-/* GENERAL SECTIONS */
 section {
     margin: 20px;
     padding: 30px;
@@ -57,7 +55,6 @@ section {
     border-radius: 10px;
 }
 
-/* HEADINGS */
 h1,
 h2,
 h3 {
@@ -70,7 +67,7 @@ h2 {
     color: #6B4F3A;
 }
 
-/* HERO SECTION */
+
 .hero {
     display: flex;
     justify-content: space-between;
@@ -91,14 +88,13 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* HERO IMAGE */
 .hero-image img {
     width: 100%;
     max-width: 400px;
     border-radius: 10px;
 }
 
-/* BUTTONS */
+ <!--buttons-->
 .btn,
 button {
 
@@ -118,7 +114,7 @@ button:hover {
     transform: scale(1.05);
 }
 
-/* ABOUT SECTION */
+ <!--About section-->
 .about-content {
     display: flex;
     justify-content: space-between;
@@ -140,14 +136,12 @@ button:hover {
     margin-bottom: 10px;
 }
 
-/* SHOP GRID */
 .products-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
-/* PRODUCT CARDS */
 .card {
     background: #FFFDF9;
     border-radius: 10px;
@@ -208,7 +202,7 @@ button:hover {
     transform: scale(1.05);
 }
 
-/* CONTACT */
+ <!--contact-->
 .contact {
     text-align: center;
 }
@@ -225,7 +219,7 @@ button:hover {
     margin: 10px 0;
 }
 
-/* ENQUIRY FORM */
+ <!--enquiry form-->
 .form-container {
     width: 60%;
     margin: auto;
@@ -251,7 +245,7 @@ textarea {
     resize: vertical;
 }
 
-/* FOOTER */
+ <!--footer-->
 footer {
     background: #DCC5B2;
     text-align: center;
@@ -260,7 +254,7 @@ footer {
     color: #4A3426;
 }
 
-/* TABLETS */
+ <!--@media for tablets-->
 @media (max-width: 992px) {
 
     .hero,
@@ -282,7 +276,7 @@ footer {
     }
 }
 
-/* MOBILE */
+ <!--@media for mobile-->
 @media (max-width: 600px) {
 
     header {
