@@ -92,9 +92,10 @@ h2 {
     border-radius: 10px;
 }
 
-* BUTTONS */
+/* BUTTONS */
 .btn,
 button {
+
     background-color: #6B4F3A;
     color: white;
     padding: 12px 20px;
@@ -119,10 +120,11 @@ button:hover {
     gap: 30px;
 }
 
-about-content img {
+.about-content img {
     width: 300px;
     border-radius: 10px;
 }
+
 
 .about-content ul {
     padding-left: 20px;
@@ -180,17 +182,21 @@ about-content img {
 }
 
 .gallery-row {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
 }
 
 .gallery-row img {
-    width: 180px;
+    width: 100%;
+    max-width: 180px;
+    height: 220px;
+    object-fit: cover;
     border-radius: 10px;
     transition: 0.3s;
 }
+
 
 .gallery-row img:hover {
     transform: scale(1.05);
@@ -283,13 +289,17 @@ footer {
     }
 
     .gallery-row {
-        flex-direction: column;
-        align-items: center;
+        grid-template-columns: 1fr;
+        justify-items: center;
     }
 
     .gallery-row img {
+        max-width: 90%;
         width: 90%;
+        height: auto;
+        object-fit: cover;
     }
+
 
     .hero-image img,
     .about-content img {
